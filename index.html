@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/9713c79194.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <h1>Weather application</h1>
+
+    <div class="container">
+
+      <div class="card">
+        
+          <div class="card-body">
+            <h4 class="card-title" id="currentcity">Current location geolocalisation test</h4>
+            <h5 class="card-title" id="currentdate">Date</h5>
+            <h6 class="card-title" id="currenttemp">Temperature</h6>
+            <p class="card-text" id="currentdescription">Description</p>
+
+          </div>
+        </div>
+
+
+
+    </br>
+    <form id="entercity">
+<div class="row"> 
+    <div class="col-8">
+    <div class="mb-3">
+    <input
+      type="text"
+      placeholder="Enter the city"
+      class="form-control"id="city-input"
+      />
+      </div>
+    </div>
+<div class="col-4">
+      <button type="submit" class="btn btn-primary" id="search-button" >Search</button>
+    </form>
+   </div>
+  </div>
+</div>
+
+</br>
+
+    <div class="container">
+
+        <div class="card">
+          
+            <div class="card-body">
+              <h4 class="card-title" id="city">City search</h4>
+              <h5 class="card-title" id="date">Date</h5>
+              <h6 class="card-title" id="temp">Temperature</h6>
+              <p class="card-text" id="description">Description</p>
+
+            </div>
+          </div>
+
+         
+    
+
+    
+</body>
+<script src="src/index.js"></script> 
+</html>v

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 20px;
+    text-align: center;
+    background-color: #491080;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    font-size: 30px;
+    line-height: 48px;
+    font-family: 'Comforter', cursive;
+  }
+  
+  h2{
+text-align: center;
+
+  }
+  h1,h2,
+  h3,h4,h5 {
+    color: #491080;
+  }
+  
+ h4,h5, .weather{
+      font-size:50px;
+      font-family: 'Source Code Pro', monospace;
+      color:#11043d;
+  }
+  
+  .card-img-top{
+    display:block;
+    margin :0 auto;
+   
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+  .card{
+      text-align: center;
+  }
+  
+  
