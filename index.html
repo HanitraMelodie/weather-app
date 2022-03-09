@@ -13,7 +13,7 @@
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://kit.fontawesome.com/9713c79194.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Vanilla weather app</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet"> 
@@ -21,26 +21,34 @@
 <body>
 
     <h1>Weather application</h1>
+<!--Card container-->
+  
 
-    <div class="container">
+<header>
+        <div class="container">
 
-      <div class="card">
-        
-          <div class="card-body">
-            <h4 class="card-title" id="currentcity">Current location geolocalisation test</h4>
-            <h5 class="card-title" id="currentdate">Date</h5>
-            <h6 class="card-title" id="currenttemp">Temperature</h6>
-            <p class="card-text" id="currentdescription">Description</p>
-
-          </div>
-        </div>
-
-
-
+          <div class="card">
+            
+              <div class="card-body">
+                <h4 class="card-title" id="city"></h4>
+                <h5 class="card-title" id="date"></h5>
+                <h6 class="card-title" id="temp"><strong></strong></h6>
+                <span class="units">
+                  <a href="#" id="celsius-link">C°|</a><a href="#" id="fahrenheit-link">°F</a></span>
+                <div class="card-text"><img src="" id="icon" alt="..."></div>
+                <h6 class="card-title" id="humidity"></h6>
+                <h6 class="card-title" id="wind"></h6>
+                <p class="card-text" id="description"></p>
+                
+              </div>
+            </div>
+         
     </br>
+    
+    <!--Search button-->
     <form id="entercity">
 <div class="row"> 
-    <div class="col-8">
+    <div class="col-4">
     <div class="mb-3">
     <input
       type="text"
@@ -49,32 +57,62 @@
       />
       </div>
     </div>
-<div class="col-4">
+  
+<div class="col-">
       <button type="submit" class="btn btn-primary" id="search-button" >Search</button>
-    </form>
-   </div>
-  </div>
 </div>
+<div class="col-">
+     <button type="button"class="btn btn-primary" id="location-button" >Current location</button>
+</div>
+ </div>
+</form>
 
-</br>
+</div>
+</div>
+</header>
+<section>
+  <div class="container">
 
-    <div class="container">
-
-        <div class="card">
-          
-            <div class="card-body">
-              <h4 class="card-title" id="city">City search</h4>
-              <h5 class="card-title" id="date">Date</h5>
-              <h6 class="card-title" id="temp">Temperature</h6>
-              <p class="card-text" id="description">Description</p>
-
-            </div>
-          </div>
-
-         
+    <div class="card">
+      
+        <div class="card-body">
+          <div class="row">
     
+            <div class="col- weather">
+              <div class="forecast">Tomorrow
+                <div clsss="forecastdescription">forecast temperature</div>
+                <div class="forecasticon">forecast icon</div>
+              </div>
+              </div>
 
-    
+            <div class="col- weather">
+              <div class="forecast">Tomorrow
+                <div clsss="forecastdescription">forecast temperature</div>
+                <div class="forecasticon">forecast icon</div>
+              </div>
+              </div>
+
+            <div class="col- weather">
+              <div class="forecast">Tomorrow
+                <div clsss="forecastdescription">forecast temperature</div>
+                <div class="forecasticon">forecast icon</div>
+              </div>
+              </div>
+
+            <div class="col- weather">
+              <div class="forecast">Tomorrow
+                <div clsss="forecastdescription">forecast temperature</div>
+                <div class="forecasticon">forecast icon</div>
+              </div>
+              </div>
+        </div>
+        </div>
+      </div>
+      </div>
+  
+</section>
+
+
 </body>
 <script src="src/index.js"></script> 
-</html>v
+</html>

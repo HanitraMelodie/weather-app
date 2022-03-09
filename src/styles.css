@@ -1,10 +1,16 @@
-body {
+@media only screen and (min-width: 400px) {
+  body {
+    text-align: center;
     font-family: 'Source Code Pro', monospace;
     padding: 0 20px;
-    text-align: center;
-    background-color: #491080;
-  }
-  
+    max-width: 1000px;
+}
+
+
+button{
+  width: 100%;
+  max-width: 750px;
+}
   h1 {
     text-align: center;
     font-weight: 900;
@@ -12,6 +18,11 @@ body {
     font-size: 30px;
     line-height: 48px;
     font-family: 'Comforter', cursive;
+  }
+  header{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    padding: 0 20px;
   }
   
   h2{
@@ -23,13 +34,30 @@ text-align: center;
     color: #491080;
   }
   
- h4,h5, .weather{
-      font-size:50px;
+ .weather{
+      font-size:20px;
       font-family: 'Source Code Pro', monospace;
-      color:#11043d;
-  }
+      background: #393e46;
+      color: #fff;
+      transition: all 200ms ease-in-out;
+      box-shadow: 5px 5px 5px 5px;
+margin: 15px;
+    padding: 8px;
+    width: 100%;
+    max-width: 750px;
+   border: solid #607d8b 1px;
+    border-radius: 7px;
+ }
+ .weather:hover{
+  color: #393e46;
+  background: #fff;
+  cursor: pointer;
+
+
+ }
+
   
-  .card-img-top{
+  #entercity{
     display:block;
     margin :0 auto;
    
@@ -38,8 +66,11 @@ text-align: center;
 p{
     font-family: 'Source Code Pro', monospace;
 }
+
   .card{
       text-align: center;
+
   }
+  
   
   
