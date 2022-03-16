@@ -15,25 +15,36 @@ button{
     text-align: center;
     font-weight: 900;
     margin: 0;
-    font-size: 30px;
+    font-size: 500px;
     line-height: 48px;
-    font-family: 'Comforter', cursive;
-  }
-  header{
-    text-align: center;
     font-family: 'Source Code Pro', monospace;
+  
+  }
+  #city{
+    font-size:50px;
+    font-weight: bolder;
+  }
+  section,header{
+    text-align: center;
     padding: 0 20px;
+    font-family: 'Source Code Pro', monospace;
+  }
+  a{
+    font-size:50px;
   }
   
   h2{
 text-align: center;
-
   }
   h1,h2,
   h3,h4,h5 {
     color: #491080;
   }
   
+  #temp{
+    font-size:80px;
+    font-weight:bolder;
+  }
  .weather{
       font-size:20px;
       font-family: 'Source Code Pro', monospace;
@@ -41,12 +52,12 @@ text-align: center;
       color: #fff;
       transition: all 200ms ease-in-out;
       box-shadow: 5px 5px 5px 5px;
-margin: 15px;
-    padding: 8px;
-    width: 100%;
-    max-width: 750px;
-   border: solid #607d8b 1px;
-    border-radius: 7px;
+      margin: 15px;
+      padding: 8px;
+      width: 100%;
+      max-width: 750px;
+      border: solid #607d8b 1px;
+      border-radius: 7px;
  }
  .weather:hover{
   color: #393e46;
@@ -67,10 +78,16 @@ p{
     font-family: 'Source Code Pro', monospace;
 }
 
-  .card{
+  footer,.card{
       text-align: center;
+      font-family: 'Source Code Pro', monospace;
 
   }
   
+  #github{
+    font-size:15px;
+  }
   
-  
+ #description, #humidity,#wind{
+    font-size:30px;
+  }
